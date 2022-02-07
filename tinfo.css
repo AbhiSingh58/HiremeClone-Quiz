@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.quizdata{
+    /* border: 2px solid; */
+    position: fixed;
+    top: 148px;
+    height: 366px;
+    width: 81.3%;
+}
+
+.content{
+    display: grid;
+    grid-template-areas:
+    'n n n n' 
+    'n2 n2 n2 n2'
+    'n3 n3 n3 n3 '
+    'n4 n4 n4 n4'
+    'bt bt bt mr';
+}
+.nav{
+    /* border: 2px solid orange; */
+    grid-area: n;
+    display: flex;
+}
+.dt{ position: absolute;
+        right: 104px;
+        top: 7px;
+        font-size:16px;padding: 3px;
+    background-color: rgb(231, 231, 231);
+
+    }
+.nav img{width: 133px;
+        margin: 0px 0px 0px 5px;
+    }
+.du{ top: 7px;
+        position: absolute;
+        right: 10px;
+        font-size: 16px;
+        padding: 3px;
+        background-color: rgb(231, 231, 231);
+        cursor: pointer;
+
+    }
+.du span{
+    padding: 2px;
+}
+
+.nav2{
+    grid-area: n2;
+    display: flex;
+    /* border: 2px solid wheat; */
+    justify-content: space-between;
+    margin: 2px  0px 0px 0px;
+    background-image: linear-gradient(rgb(29, 137, 209), rgb(178, 250, 246));
+}
+.nav2 p{    font-size: large;
+    margin: 3px 0px 0px 7px;
+}
+
+
+.b1{
+    font-size: 13px;
+    margin: 5px 10px 3px 0px;
+    background-color: red;
+    padding: 3px;
+    border-radius: 5px;
+    border:none;
+}
+.b1:hover{
+    background-color: rgb(194, 4, 4);
+    color: rgb(255, 255, 255);
+}
+.b1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.nav3{
+    /* border: 2px solid yellow; */
+    grid-area: n3;
+    height: 33px;
+    background-color: #032296;
+    margin-top: 2px;
+
+}
+.nav3 p {
+    /* margin: auto; */
+    /* border: 2px solid; */
+    margin: 0px 650px 0px -2px;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 50px;
+    height: 33px;
+    background-color: rgb(202, 202, 202);
+
+}
+.qp{
+    /* border: 2px solid pink; */
+    grid-area: qp;
+    border-left: 1px solid rgb(57, 57, 255);
+    border-bottom: 1px solid rgb(57, 57, 255);
+    margin-top: 2px;
+    height: 455px;
+    
+}
+#h3{
+    /* border:2px solid red; */
+    height: 33px;
+    background-color: #032296;
+
+}
+#h3 p{
+    color:white;
+    position: absolute;
+    top: 14.5%;
+    left: 8%;
+    font-size: 17px;
+}
+
+
+.nav3 span{
+    
+        position: absolute;
+        /* margin: 67px 0px 0px 0px; */
+        left: 6px;
+        top: 76px;
+        font-size: 18px;
+
+}
+.nav4{
+    display: flex;
+    grid-area: n4;
+    /* border: 2px solid aqua; */
+    justify-content: space-between;
+    background-color: rgb(202, 202, 202);
+}
+.nav4 p{
+    font-size: 17px;
+    margin: 6px 4px 6px 0px;
+}
+#h{
+font-size: 18px;
+    margin: 7px 0px 4px 6px;
+}
+.bttns {
+    /* border: 2px solid aqua; */
+    grid-area: bt;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 29px;
+}
+.qstns{
+    margin: 13px 0px 6px 10px;
+}
+#ol{
+    margin: 0px 0px 0px 28px;
+    line-height: 31px;
+}
+#ol label{
+    margin: 0px 0px 0px 6px;
+}
+.circle {
+    border: 2px solid green;
+    font-size: 21px;
+    padding: 10px;
+    margin: 0px 13px 0px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+    
+
+.circles{
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+#f{position: absolute;
+    top: 35%;
+    right: 11.3%;
+}
+#fi{
+    position: absolute;
+    top: 35%;
+    right: 6.3%;
+}
+#sub{
+    position: absolute;
+    right: 5%;
+    color: white;
+    bottom: 2px;
+    width: 87px;
+    height: 24px;
+    border-radius: 6px;
+    background: #00bf0f;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    /* visibility: hidden; */
+
+}
+
+    #sub:hover{
+    background: #018a0c;
+
+    }
+
+
+    #mr{
+        position: absolute;
+        text-decoration: none;
+        right: 0.1%;
+        text-align: center;
+        color: white;
+        width: 5em;
+        padding: 2px;
+        font-size: 1em;
+        background-color: #00bf0f;
+        border: none;
+        border-radius: 8px;
+top: 1px;
+        cursor: pointer;
+
+    }
+    #mr:hover{
+        background-color: #00bf0f;
+
+        /* background: #d8db02; */
+
+    }
+    #p{
+        height: 27px;
+        position: absolute;
+        left: 9px;
+        width: 52px;
+        top: 1px;  
+        border: none;
+        border-radius: 8px; 
+    cursor: pointer;}
+        #p:hover{
+background-color: rgb(206, 211, 211);
+        }
+    #n{border: none;
+        border-radius: 8px;
+        height: 27px;
+        position: absolute;
+        left: 76px;
+        width: 52px;top: 1px;
+        cursor: pointer;
+    }
+    #n:hover{
+        background-color: rgb(206, 211, 211);
+
+    }
+    
+  
+
+
+

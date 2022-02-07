@@ -1,0 +1,45 @@
+.nav{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245 245 245);
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    
+}
+#about{
+    margin: 28px 28px 0px 0px;
+    font-size: 23px;
+    color: rgb(107, 214, 0);
+    cursor: pointer;
+}
+#about:hover{
+    color: rgb(82, 153, 11);
+    text-decoration: underline;
+}
+.content{
+    margin: 106px 40px 0px 18px;
+}
+#head{
+   
+    border-left: 6px solid rgb(14, 153, 14);
+}
+.nav img{
+    height :85px;
+    margin: 0px 0px 0px 14px;
+   
+}
+#ar i{
+    position: fixed;
+    display: none;
+    border-radius: 50%;
+    padding: 2px;
+    right: 24px;
+    top: 90%;
+    font-size: 23px;
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}

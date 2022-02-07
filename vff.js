@@ -1,8 +1,7 @@
-const vid = document.getElementById('video');
+    const vid = document.getElementById('video');
     const can = document.getElementById('canvas');
     var context = can.getContext('2d');
     const checkbox = document.getElementById('ch');
-
     checkbox.addEventListener("click", () => {
         if (checkbox.checked == true) {
 
@@ -15,9 +14,6 @@ const vid = document.getElementById('video');
         }
 
     })
-
-
-
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
             vid.srcObject = stream;
@@ -34,10 +30,7 @@ const vid = document.getElementById('video');
 
              }
      })
-
-   
-
-    document.getElementById("et").addEventListener("click", (e) => {
+     document.getElementById("et").addEventListener("click", (e) => {
     
         if (confirm("do you really want to exit this Test")){
             window.location.href = "hiremeeclone.html";

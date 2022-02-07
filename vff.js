@@ -1,7 +1,7 @@
  const vid = document.getElementById('video');
  const can = document.getElementById('canvas');
- var context = can.getContext('2d')
- const checkbox = document.getElementById('ch')
+ var context = can.getContext('2d');
+ const checkbox = document.getElementById('ch');
  checkbox.addEventListener("click", () => {
   if (checkbox.checked == true) {
    context.drawImage(video, 0, 0, 200, 200)

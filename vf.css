@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(104, 151, 104);
+
+}
+#video{
+    /* border: 2px solid red; */
+    left: 90px;
+    position: fixed;
+    top: 16%;
+    
+    
+}
+#canvas{
+    top: 22%;
+    /* border: 2px solid red; */
+    left: 90px;
+    position: fixed;}
+.maincont{
+    display: grid;
+    grid-template-areas:
+    'n n n n'
+    'hr hr hr hr'
+    'vc vc ri ri'
+    'vc vc re re'
+    'chh chh chh chh'
+    'b b b b' ;
+    column-gap: 20px;
+    /* background-color: rgb(104, 151, 104); */
+}
+ol{
+    color: white;
+}
+li{
+    font-size: 20px;
+}
+hr{
+    grid-area: hr;
+    width: 100%;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid white;
+}
+.nav{
+    grid-area: n;
+    display: flex;
+    /* border: 2px solid green; */
+    background-color: green;
+    padding: 10px;
+
+}
+label{
+    color: white;
+    font-size: 17px;
+    /* margin: 10px 0px 0px 0px; */
+    position: absolute;
+    top: 56%;
+    left: 3%;
+}
+hr.new{
+    border:2px solid white;
+}
+.nav img{
+    width: 90px ;
+    height: 90px;
+}
+#et{
+        cursor: pointer;
+        height: 25px;
+        position: absolute;
+        right: 24px;
+        top: 50px;
+        width: 76px;
+        border-radius: 20px;
+         background-color: red;
+       
+    }
+    #et a{
+  text-decoration: none;
+        color: white;
+    }
+    #et:hover{
+        background-color: rgb(184, 12, 12);
+        color: white;
+        text-decoration: underline;
+    }
+     #as{
+        font-size: 20px;
+    position: absolute;
+    left: 124px;
+    top: 30px;
+    color: white;
+    }
+
+.vc{
+    grid-area: vc;
+    /* border: 2px solid red; */
+    margin: 10px 0px 0px 0px;
+
+}
+.ri{
+    /* text-align: center; */
+    grid-area: ri;
+    /* border: 2px solid red; */
+    margin: 10px 0px 0px 0px;
+    border-left: 2px solid white;
+
+
+}
+.chh{
+    grid-area: chh;
+    /* border: 2px solid red; */
+    margin: 15px 0px 0px 0px;
+    
+
+}
+#b{
+    grid-area: b;
+ 
+    width: 200px;
+    margin: 120px 0px 0px 42%;
+    height: 36px;
+    border-radius: 30px;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: rgb(10, 141, 10);
+   
+    
+}
+#b a{
+   
+    color: white;
+    text-decoration: none;
+} 
+#b:hover{
+    background-color: rgb(104, 151, 104);
+    text-decoration: underline;
+
+}
+.hidecanvas{
+display: none;
+}
+h2{margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+}
+#ch{
+    position: absolute;
+    top: 56%
+    ;
+}

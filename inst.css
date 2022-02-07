@@ -1,0 +1,75 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: centers;
+    background-color: rgb(231, 231, 231);
+
+
+}
+.cont{
+    background-color:white;
+    margin: auto;
+    border-radius: 20px;
+
+    height: 400px;
+    width: 58%;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-areas:
+    'i i i i '
+    'h h h h'
+    'hr hr hr hr'
+    'l l l l' ;
+
+}
+.nav{
+    grid-area: i;
+    text-align: center;
+}
+.nav img{
+    width: 46%;
+    margin: 07px 0px 0px 0px;
+}
+.nav2{
+    grid-area: h;
+    margin: -93px 0px 0px 0px;
+    text-align: center;
+}
+.list{
+    grid-area: l;
+    line-height: 33px;
+    margin: -160px 0px 0px 0px;
+
+}
+.lia{
+    font-size: 20px;
+}
+.hr{
+    grid-area: hr;
+    height: 0px;
+    width: 100%;
+      margin: -109px 0px 0px 0px;
+}
+#but{
+    position: absolute;
+    bottom: 28%;
+    left: 46%;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(10, 141, 10);
+}
+#but a{
+    text-decoration: none;
+    color: white;
+}
+#but span{
+    color: white;
+}
+#but:hover{
+   background-color:  rgb(104, 151, 104);
+}

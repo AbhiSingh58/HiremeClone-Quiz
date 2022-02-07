@@ -1,6 +1,4 @@
- const b=document.querySelector('i')
-   
-
+ const b=document.querySelector('i');
     window.onscroll=function() {myfunc()};
     function myfunc() {
         if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
@@ -12,7 +10,6 @@
             console.log("it wil hide now")
         }
     }
-
     b.addEventListener("click",()=>{
        document.body.scrollTop=0;
        document.documentElement.scrollTop=0;

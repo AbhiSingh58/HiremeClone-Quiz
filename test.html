@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Information</title>
+    <link rel="stylesheet" href="tinfo.css">
+    <script src="tinfo.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="nav">
+                <img src="pplogo.png" alt="">
+                <div class="dt">Remaining Time - <span id="min">10</span>:<span id="sec">00</span></div>
+                <div class="du"><i class="fas fa-user"></i><span>Dummy</span></div>
+            </div>
+            <div class="nav2">
+                <p>DBU-Demo</p>
+                <button class="b1" id="eb"><a href="">End Test</a></button>
+            </div>
+            <div class="nav3">
+                <p><span>DBU</span></p>
+
+            </div>
+            <!-- <div class="qp">
+                <div id="h3">
+                    <p><strong> Questions Pallete</strong></p>
+                </div>
+                <hr>
+                <div class="circles">
+                    <span class="circle">1</span><span class="circle">2</span><span class="circle">3</span><br><span
+                        class="circle" id="f">4</span><span class="circle" id="fi">5</span>
+
+
+
+                </div>
+                <button id="sub">Submit-Test</button>
+            </div> -->
+            <div class="nav4">
+                <p id="h">DBU</p>
+                <p>Questions <span id="quc">1</span>/<span>5</span></p>
+
+            </div>
+
+            <div class="quizdata">
+                <div class="qstns" id="qstn">Question</div>
+                <ol type="a" id="ol">
+                    <li><input type="radio" name="ra" class="ans" id="a"><label for="a" id="ak">option</label></input>
+                    </li>
+                    <li><input type="radio" name="ra" class="ans" id="b"><label for="b" id="bk">option</label></input>
+                    </li>
+                    <li><input type="radio" name="ra" class="ans" id="c"><label for="c" id="ck">option</label></input>
+                    </li>
+                    <li><input type="radio" name="ra" class="ans" id="d"><label for="d" id="dk">option</label></input>
+                    </li>
+                </ol>
+            </div>
+            <div class="bttns">
+                <button id="p" onclick="prevq()">Prev</button>
+                <button id="n" onclick="nextq()">Next</button>
+                <a href="thankyou.html" id="mr">Submit</a>
+                <!-- <button id="mr">Mark for Review</button> -->
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>

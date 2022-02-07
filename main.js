@@ -33,6 +33,7 @@ const i = document.getElementById('inp')
             console.log("yess  now you can proceed to next page")
         }
 
+        
     }
 
     function seterr(input , message) {

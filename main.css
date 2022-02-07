@@ -8,7 +8,6 @@
     min-height: 100vh;
     background-color: rgb(231, 231, 231);
 }
-
 .cont{
  background-color: white;
    
@@ -25,13 +24,10 @@ height: 400px;
     'nav nav nav nav'
     'p1 p1 p1 p1'
     'p2 p2 p2 p2';
-
-
 }
 .nav{
 grid-area: nav;
 text-align: center;
-
 }
 .part1{
 grid-area: p1;
@@ -44,19 +40,14 @@ text-align: center;
     background-color: #1163a9;
     width: 74px;
     cursor: pointer;
-
 }
 #bu a{
     color: white;
     text-decoration:none;
 }
-
 #bu:hover{
-   
     background-color: #0d4b81;
-
 }
-
 .part1 input{
     font-size: 17px;
     height: 33px;
